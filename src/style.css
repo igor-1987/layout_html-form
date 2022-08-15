@@ -2,12 +2,8 @@
   margin-bottom: 20px;
 }
 
-.form-control {
+.form-control:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.form-control:last-child {
-  margin-bottom: 0;
 }
 
 .select-cars {
