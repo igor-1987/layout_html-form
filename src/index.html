@@ -17,14 +17,14 @@
     <div class="form-holder">
       <form
         action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-        class="submit-form"
         method="post"
       >
         <!-- Fieldset 1: personal info -->
         <fieldset class="fieldset">
           <legend>Personal information</legend>
           <div class="form-control">
-            <label for="lastname">Surname:
+            <label>
+              Surname:
               <input
                 type="text"
                 name="lastname"
@@ -34,7 +34,7 @@
             </label>
           </div>
           <div class="form-control">
-            <label for="firstname">
+            <label>
               Name:
               <input
                 type="text"
@@ -45,7 +45,7 @@
             </label>
           </div>
           <div class="form-control">
-            <label for="age">
+            <label>
               How old are You?
               <input
                 type="number"
@@ -54,12 +54,11 @@
                 value="12"
                 min="1"
                 max="100"
-                class="age-input"
               >
             </label>
           </div>
           <div class="form-control">
-            <label for="birthday-date">
+            <label>
               Full date of birth:
               <input
                 type="date"
@@ -69,7 +68,7 @@
             </label>
           </div>
           <div class="form-control">
-            <label for="term-check">
+            <label>
               I accept the term of the agreement
               <input
                 type="checkbox"
@@ -83,7 +82,7 @@
         <fieldset class="fieldset">
           <legend>Registration</legend>
           <div class="form-control">
-            <label for="email">
+            <label>
               E-mail:
               <input
                 type="email"
@@ -96,7 +95,7 @@
             </label>
           </div>
           <div class="form-control">
-            <label for="password">
+            <label>
               Password:
               <input
                 type="password"
@@ -114,7 +113,7 @@
         <fieldset class="fieldset">
           <legend>An interesting fact about you!</legend>
           <div class="form-control">
-            <label>Do you love cats?</label>
+            <span>Do you love cats?</span>
             <input
               type="radio"
               name="cats"
@@ -141,7 +140,7 @@
             </label>
           </div>
           <div class="form-control">
-            <label for="bed-time">
+            <label>
               What time do you go to bed?
               <input
                 type="time"
@@ -162,12 +161,11 @@
                 <option value="BMW">BMW</option>
                 <option value="Audi">Audi</option>
                 <option value="Lada">Lada</option>
-                <option value="Lada"></option>
               </select>
             </label>
           </div>
           <div class="form-control">
-            <label for="work-rating">
+            <label>
               How do you rate our work?
               <input
                 type="range"
@@ -182,15 +180,16 @@
         <fieldset class="fieldset">
           <legend>Additional info:</legend>
           <div class="form-control">
-            <label for="comments">Comments:</label>
-            <textarea
-              name="comments"
-              id="comments"
-              cols="15"
-              rows="2"
-              autocomplete="off"
-            >
-            </textarea>
+            <label>Comments:
+              <textarea
+                name="comments"
+                id="comments"
+                cols="15"
+                rows="2"
+                autocomplete="off"
+              >
+              </textarea>
+            </label>
           </div>
           <div class="form-control">
             <label for="recommend">Would you recommend us?</label>

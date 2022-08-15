@@ -3,16 +3,11 @@
 }
 
 .form-control {
-  display: block;
   margin-bottom: 10px;
 }
 
-.form-control:last-of-type {
+.form-control:last-child {
   margin-bottom: 0;
-}
-
-.answers {
-  display: block;
 }
 
 .select-cars {
