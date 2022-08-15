@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,UACE,kBACF,CAEA,+BACE,kBACF,CAEA,aACE,iBACF","file":"style.a1259c00.css","sourceRoot":"..\\src","sourcesContent":[".fieldset {\n  margin-bottom: 20px;\n}\n\n.form-control:not(:last-child) {\n  margin-bottom: 10px;\n}\n\n.select-cars {\n  overflow-y: hidden;\n}\n"]}
